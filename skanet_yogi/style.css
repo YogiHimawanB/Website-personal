@@ -1,0 +1,84 @@
+/* Mengatur body dan elemen dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Container form login */
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Judul login */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Grup form (label dan input) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+/* Tombol login */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #008cba;
+}
+
+/* Teks tambahan di bawah login */
+.additional-info {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.additional-info span {
+    font-weight: bold;
+    color: #4facfe;
+}
